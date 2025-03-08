@@ -11,7 +11,7 @@ function App() {
       </head>
       <title>DevTes</title>
       <body>
-        <Details />
+        <EvenList />
       </body>
     </div>
   );
