@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import EvenList from "./EventList";
 import "./App.css";
+import Details from "./Details";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       </head>
       <title>DevTes</title>
       <body>
-        <EvenList />
+        <Details />
       </body>
     </div>
   );

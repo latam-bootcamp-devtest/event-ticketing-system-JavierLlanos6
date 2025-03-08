@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import { hasFormSubmit } from "@testing-library/user-event/dist/utils";
+import Details from "./Details";
 const EventList = () => {
   const [event, setEvent] = useState([]);
   const [load, setLoad] = useState(true);
@@ -23,6 +24,9 @@ const EventList = () => {
     fetchEvent();
   }, []);
 
+  function myFunction() {
+    <Details />;
+  }
   if (load) return <p>Loading...</p>;
 
   return (
@@ -50,6 +54,7 @@ const EventList = () => {
                   Available seats:
                   {event.price}
                 </p>
+                <button onClick={myFunction}>Details</button>
               </li>
             ))}
           </ul>
