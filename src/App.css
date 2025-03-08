@@ -1,0 +1,37 @@
+
+h1{
+  color: black;
+  display: flex;
+    margin: 2vh 2vh 6vh;
+}
+.TarjetList{
+  list-style: none;
+  margin: 0;
+  padding: 3;
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.Box{
+  border:  solid ;
+  display: solid;
+  align-items: center;
+  border-radius: 10px;
+  
+}
+img{
+  width: 20vh;
+  display: flex;
+  align-items: center;
+}
+.imageBox{
+  
+  display: flex;
+  justify-content: center;
+}
